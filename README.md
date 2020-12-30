@@ -10,6 +10,7 @@ My first flutter project.
 4. `HashMap` => `Map`
 5. `Array` => `List`
 6. `Boolean` -> `bool`
+7. `lateinit` default value is `null`
 
 # Grammar Note
 
