@@ -79,10 +79,11 @@ print(getAddress('서울', '강남'));
 class C {
   var a = "1";
 }
+
 eval() {
   final D = C();
   D.a = "AAA";
   print(D.a);
 }
 ```
-이거 작동 하는데, 클레스에서 `getter/setter`가 필요할 까?
+이거 작동 하는데, 클레스에서 `getter/setter`가 필요할까?
