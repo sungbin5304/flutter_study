@@ -11,6 +11,7 @@ My first flutter project.
 5. `Array` => `List`
 6. `Boolean` -> `bool`
 7. `lateinit` default value is `null`
+8. `~/` 연산자: 나눗셈 후 
 
 # Grammar Note
 
