@@ -76,8 +76,11 @@ print(getAddress('서울', '강남'));
 ```dart
 class C {
   var a = "1";
-  C() {
+  C() { // 기본 생성자
     print("this is `C` constructor!");
+  }
+  C.init() { // 이름있는 생성자; 1개만 선언 가능
+    print("this is `C.init` constructor!");
   }
 }
 ```
