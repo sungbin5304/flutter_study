@@ -83,6 +83,9 @@ class C {
     print("this is `C.init` $value constructor!");
   }
 }
+
+C()
+C.init("AAA")
 ```
 
 -----
