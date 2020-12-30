@@ -12,7 +12,8 @@ My first flutter project.
 6. `Boolean` -> `bool`
 7. `lateinit` default value is `null`
 8. `~/` 연산자: 나눗셈 후 몫만 구한다.
-9. `A.B ?? "null value"` <== `A.B ?: "null value"` (코틀린에서 엘비스 연산자와 동일)
+9. `A.B ?? "null value"` == 코틀린에서 엘비스 연산자와 동일
+10. `A?.B` 코틀린과 동일
 
 # Grammar Note
 
