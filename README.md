@@ -17,6 +17,8 @@ My first flutter project.
 11. 메소드체인은 `..`으로 이어가기
 12. `new` 생략 가능
 
+-----
+
 # Grammar Note
 
 ## 0. 세미콜론 필수!
@@ -69,3 +71,18 @@ String getAddress(String city, [String district, String zipCode = '111222']) => 
 // 타입 생략 가능: getAddress(String city, [String district, String zipCode = '111222']) => '$city시 $district구 $zipCode';
 print(getAddress('서울', '강남'));
 ```
+
+-----
+
+# TODO
+```dart
+class C {
+  var a = "1";
+}
+eval() {
+  final D = C();
+  D.a = "AAA";
+  print(D.a);
+}
+```
+이거 작동 하는데, 클레스에서 `getter/setter`가 필요할 까?
