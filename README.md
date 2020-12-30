@@ -72,6 +72,16 @@ String getAddress(String city, [String district, String zipCode = '111222']) => 
 print(getAddress('서울', '강남'));
 ```
 
+## 5. 클래스
+```dart
+class C {
+  var a = "1";
+  C() {
+    print("this is `C` constructor!");
+  }
+}
+```
+
 -----
 
 # TODO
