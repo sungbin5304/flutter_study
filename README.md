@@ -58,9 +58,8 @@ String getAddress(String city, {String district, String zipCode = '111222'}) {
 print(getAddress('서울', district: '강남'));
 ```
 
+### Ex2 with `lambda`
 ```dart
-String getAddress(String city, [String district, String zipCode = '111222']) {
-  return '$city시 $district구 $zipCode';
-}
+String getAddress(String city, [String district, String zipCode = '111222']) => '$city시 $district구 $zipCode';
 print(getAddress('서울', '강남'));
 ```
