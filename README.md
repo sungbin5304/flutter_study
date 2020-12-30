@@ -79,8 +79,8 @@ class C {
   C() { // 기본 생성자
     print("this is `C` constructor!");
   }
-  C.init() { // 이름있는 생성자; 1개만 선언 가능
-    print("this is `C.init` constructor!");
+  C.init(String value) { // 이름있는 생성자, 인자 활용 가능
+    print("this is `C.init` $value constructor!");
   }
 }
 ```
