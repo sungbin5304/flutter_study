@@ -10,9 +10,9 @@ My first flutter project.
 
 # Grammar Note
 
-0. 세미콜론 필수!
+## 0. 세미콜론 필수!
 
-1. 함수 선언
+## 1. 함수 선언
 ```dart
 (반환 타입) (함수 이름) {
   // todo
@@ -27,7 +27,7 @@ add(int a, int b) {
 }
 ```
 
-2. 변수 선언
+## 2. 변수 선언
 `var` 또는 `타입` 으로 선언
 
 ### Ex
