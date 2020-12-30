@@ -2,15 +2,27 @@
 
 My first flutter project.
 
-## Getting Started
+-----
 
-This project is a starting point for a Flutter application.
+# Study Note
 
-A few resources to get you started if this is your first Flutter project:
+1. 모든 변수는 `Object`(객체)이고, 모든 `Object`는 `class`의 `instance`이다.
+2. 코틀린 기준 `*` 을 사용하려면 `dynamic` 키워드를 사용한다.
+3. 접근제한자 키워드가 없으며, `private`를 할 떄는 네이밍을 `_`로 시작한다.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Grammar Note
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. 함수 선언
+```dart
+(반환 타입) (함수 이름) {
+  // todo
+}
+```
+반환 타입은 생략 가능
+
+### Ex
+```dart
+add(int a, int b) {
+  return a + b
+}
+```
