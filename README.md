@@ -18,7 +18,7 @@ My first flutter project.
   // todo
 }
 ```
-반환 타입은 생략 가능
+> 반환 타입은 생략 가능
 
 ### Ex
 ```dart
