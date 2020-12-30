@@ -15,6 +15,7 @@ My first flutter project.
 9. `A.B ?? "null value"` == 코틀린에서 엘비스 연산자와 동일
 10. `A?.B` 코틀린과 동일
 11. 메소드체인은 `..`으로 이어가기
+12. `new` 생략 가능
 
 # Grammar Note
 
