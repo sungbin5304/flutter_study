@@ -47,4 +47,20 @@ int b = 1;
 
 변수 사용은 코틀린과 동일
 
-### 3. 주석은 코틀린과 동일
+## 3. 주석은 코틀린과 동일
+
+## 4. 선택 매개변수
+### Ex
+```dart
+String getAddress(String city, {String district, String zipCode = '111222'}) {
+  return '$city시 $district구 $zipCode';
+}
+print(getAddress('서울', district: '강남'));
+```
+
+```dart
+String getAddress(String city, [String district, String zipCode = '111222']) {
+  return '$city시 $district구 $zipCode';
+}
+print(getAddress('서울', '강남'));
+```
