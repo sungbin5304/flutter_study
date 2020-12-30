@@ -91,7 +91,7 @@ C.init("AAA")
 -----
 
 # TODO
-## 1.
+## 1. - [x]
 ```dart
 class C {
   var a = "1";
@@ -105,5 +105,5 @@ eval() {
 ```
 이거 작동 하는데, 클레스에서 `getter/setter`가 필요할까?
 
-## 2. `BLoC 패턴`
+## 2. - [ ] `BLoC 패턴`
 [reference](https://beomseok95.tistory.com/312)
